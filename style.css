@@ -1,0 +1,64 @@
+*{
+    font-size: 30px;
+    text-align: center;
+}
+::selection {
+    background: rgb(236, 22, 65);
+    color: rgba(0, 0, 0, 0.8);
+}
+table{
+    border: 1px solid crimson;
+}
+tr:nth-child(1){
+    color: crimson;
+}
+td:nth-child(1){
+    color: crimson;
+}
+tr:nth-child(odd){
+    background-color:rgba(31, 64, 70, 0.5);
+}
+tr{
+    opacity: 80%;
+}
+span{
+    display:none;
+}
+h1{
+    color: white;
+    opacity: 70%;
+}
+.color-t{
+    display: block;
+    opacity: 70%;
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(280deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 1400% 1400%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: anime 10s alternate-reverse infinite;
+}
+body{
+    padding-top: 20px;
+    background: linear-gradient(270deg,rgb(83, 223, 83),aqua, rgb(58, 58, 247),purple,indigo, rgb(124, 26, 26));
+    background-size: 1000% 1000%;
+    animation:anime 15s alternate-reverse infinite;
+}
+td:hover + span{
+    transition: 2s;
+    display:block;
+}
+h1:hover{
+    cursor: pointer;
+    text-transform: none;
+    text-align: center;
+}
+@keyframes anime {
+    0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
+}
