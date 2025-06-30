@@ -45,7 +45,7 @@ body{
     background-size: 1000% 1000%;
     animation:anime 15s alternate-reverse infinite;
 }
-td:hover + span{
+td:hover span{
     transition: 2s;
     display:block;
 }
