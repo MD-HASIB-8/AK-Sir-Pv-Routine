@@ -1,13 +1,23 @@
 *{
+    margin: 0;
     font-size: 30px;
     text-align: center;
+}
+body{
+    background: linear-gradient(270deg,rgb(83, 223, 83),aqua, rgb(58, 58, 247),purple,indigo, rgb(124, 26, 26));
+    background-size: 1000% 1000%;
+    overflow: hidden;
+    animation:anime 15s alternate-reverse infinite;
+    margin: 0;
 }
 ::selection {
     background: rgb(236, 22, 65);
     color: rgba(0, 0, 0, 0.8);
 }
 table{
+    margin-left: 26%;
     border: 1px solid crimson;
+    border-bottom-left-radius: 20px;
 }
 tr:nth-child(1){
     color: crimson;
@@ -38,12 +48,6 @@ h1{
     background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: anime 10s alternate-reverse infinite;
-}
-body{
-    padding-top: 20px;
-    background: linear-gradient(270deg,rgb(83, 223, 83),aqua, rgb(58, 58, 247),purple,indigo, rgb(124, 26, 26));
-    background-size: 1000% 1000%;
-    animation:anime 15s alternate-reverse infinite;
 }
 td:hover span{
     transition: 2s;
