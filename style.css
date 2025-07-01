@@ -54,6 +54,11 @@ h1:hover{
     text-transform: none;
     text-align: center;
 }
+#clock {
+      font-size: 40px;
+      font-family: monospace;
+      color: crimson;
+}
 @keyframes anime {
     0% {
         background-position: 0% 50%;
